@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Le Petit Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "category": "Roman",
+    "year": 1943,
+    "available": true,
+    "cover": "/covers/petit-prince.jpg",
+    "summary": "Un aviateur échoué dans le désert rencontre un petit prince."
+  },
+  {
+    "id": 2,
+    "title": "Germinal",
+    "author": "Émile Zola",
+    "category": "Roman",
+    "year": 1885,
+    "available": false,
+    "cover": "/covers/germinal.jpg",
+    "summary": "La vie et la révolte des mineurs du nord de la France."
+  },
+  {
+    "id": 3,
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "category": "Roman",
+    "year": 1862,
+    "available": true,
+    "cover": "/covers/les-miserables.jpg",
+    "summary": "Jean Valjean, ancien forçat, cherche la rédemption."
+  },
+  {
+    "id": 4,
+    "title": "L'Étranger",
+    "author": "Albert Camus",
+    "category": "Roman",
+    "year": 1942,
+    "available": true,
+    "cover": "/covers/etranger.jpg",
+    "summary": "Meursault, indifférent au monde, est jugé pour meurtre."
+  },
+  {
+    "id": 5,
+    "title": "Harry Potter à l'école des sorciers",
+    "author": "J. K. Rowling",
+    "category": "Jeunesse",
+    "year": 1997,
+    "available": false,
+    "cover": "/covers/harry-potter.jpg",
+    "summary": "Un orphelin découvre qu'il est un sorcier et entre à Poudlard."
+  },
+  {
+    "id": 6,
+    "title": "Matilda",
+    "author": "Roald Dahl",
+    "category": "Jeunesse",
+    "year": 1988,
+    "available": true,
+    "cover": "/covers/matilda.jpg",
+    "summary": "Une petite fille surdouée aux pouvoirs surprenants affronte l'injustice."
+  },
+  {
+    "id": 7,
+    "title": "Le Journal d'un dégonflé",
+    "author": "Jeff Kinney",
+    "category": "Jeunesse",
+    "year": 2007,
+    "available": true,
+    "cover": "/covers/degonfle.jpg",
+    "summary": "Greg raconte avec humour ses débuts au collège."
+  },
+  {
+    "id": 8,
+    "title": "Tintin au Tibet",
+    "author": "Hergé",
+    "category": "Jeunesse",
+    "year": 1960,
+    "available": false,
+    "cover": "/covers/tintin-tibet.jpg",
+    "summary": "Tintin part à la recherche de son ami Tchang dans l'Himalaya."
+  },
+  {
+    "id": 9,
+    "title": "Sapiens : Une brève histoire de l'humanité",
+    "author": "Yuval Noah Harari",
+    "category": "Documentaire",
+    "year": 2011,
+    "available": true,
+    "cover": "/covers/sapiens.jpg",
+    "summary": "Une histoire de l'espèce humaine, des chasseurs-cueilleurs à nos jours."
+  },
+  {
+    "id": 10,
+    "title": "Une brève histoire du temps",
+    "author": "Stephen Hawking",
+    "category": "Documentaire",
+    "year": 1988,
+    "available": true,
+    "cover": "/covers/histoire-du-temps.jpg",
+    "summary": "Une introduction accessible à la cosmologie et aux trous noirs."
+  },
+  {
+    "id": 11,
+    "title": "Le Deuxième Sexe",
+    "author": "Simone de Beauvoir",
+    "category": "Documentaire",
+    "year": 1949,
+    "available": false,
+    "cover": "/covers/deuxieme-sexe.jpg",
+    "summary": "Une analyse de la condition des femmes dans la société."
+  },
+  {
+    "id": 12,
+    "title": "L'Afrique noire est mal partie",
+    "author": "René Dumont",
+    "category": "Documentaire",
+    "year": 1962,
+    "available": true,
+    "cover": "/covers/afrique-noire.jpg",
+    "summary": "Un essai sur les difficultés du développement agricole africain."
+  }
+]

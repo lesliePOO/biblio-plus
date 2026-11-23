@@ -2,17 +2,15 @@
 import { ref, computed, onMounted } from 'vue'
 import SearchBar from '@/components/SearchBar.vue'
 import BookList from '@/components/BookList.vue'
+import { useBooks } from '@/composables/useBooks'
 
-const books = ref([])
+const { books, loading, error, load } = useBooks()
 const query = ref('')
 const featured = computed(() =>
   books.value.filter((b) => b.title.toLowerCase().includes(query.value.toLowerCase())).slice(0, 8),
 )
 
-onMounted(async () => {
-  const res = await fetch(import.meta.env.BASE_URL + 'data/books.json')
-  books.value = await res.json()
-})
+onMounted(load)
 </script>
 
 <template>
@@ -23,7 +21,9 @@ onMounted(async () => {
 
   <section class="featured" aria-labelledby="coeur">
     <h2 id="coeur">Coups de cœur</h2>
-    <BookList :books="featured" />
+    <p v-if="loading" role="status">Chargement…</p>
+    <p v-else-if="error" role="alert">{{ error }}</p>
+    <BookList v-else :books="featured" />
   </section>
 </template>
 

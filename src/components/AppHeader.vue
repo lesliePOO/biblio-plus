@@ -35,6 +35,11 @@
   font-weight: 700;
 }
 
+.app-header__nav a.router-link-active {
+  font-weight: 700;
+  border-bottom: 2px solid currentColor;
+}
+
 .app-header__nav {
   display: flex;
   gap: var(--space-4);

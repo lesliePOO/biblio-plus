@@ -17,7 +17,11 @@ const emit = defineEmits(['toggle-favorite'])
       loading="lazy"
     />
     <div class="book-card__body">
-      <h3 class="book-card__title">{{ book.title }}</h3>
+      <h3 class="book-card__title">
+        <RouterLink :to="{ name: 'book', params: { id: book.id } }">
+          {{ book.title }}
+        </RouterLink>
+      </h3>
       <p class="book-card__author">{{ book.author }}</p>
       <p class="book-card__status" :class="{ 'book-card__status--off': !book.available }">
         {{ book.available ? 'Disponible' : 'Emprunté' }}
